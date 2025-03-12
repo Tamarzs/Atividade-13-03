@@ -15,13 +15,13 @@ int main(void) {
     printf("IMC: %.2f\n", imc);
     
     if (imc>24.9) {
-        printf("Fora do padrão");
+        printf("Fora do intervalo noramal");
         return 0;
     } if (imc<18.5) {
-        printf("Fora do padrão");
+        printf("Fora do intervalo normal");
         return 0;
     } else {
-        printf("Dentro do padrão");
+        printf("Dentro do intervalo normal");
         return 0;
     } return 0;
 }
